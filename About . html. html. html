@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - My Website</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Hero section */
+        .hero {
+            background-color: #f4f4f4;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* About content */
+        .about {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .about h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Team section */
+        .team {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+        }
+
+        .team h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            margin: 20px;
+            flex: 1 1 200px;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .team-member p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>About Us</h1>
+    </header>
+ <!-- Hero Section -->
+    <section class="hero">
+        <h1>Our Story</h1>
+        <p>Learn more about who we are and what we do.</p>
+    </section>
+
+    <!-- About Us Content -->
+    <section class="about">
+       <p>
+        I have made this website to provide students notes of subjects which are required  for the preparation of 
+        UPSC competition. In this I will provide you You - tube  which will help to understand easily and crack the UPSC 
+        exam easily.
+        Here  I will provide very notes which are required for the preparation of UPSC exam. First we will provide
+        you the notes from NCERT Book of Classes 6th-12th then we will provide information of other subjects.
+        Here I will also provide information of BA - LLB course in very detailed manner.
+  </p>
+        <p>
+           I will try my best to make this website attractive which may help to understandthe materials provided very easily.
+            I try my best to provide the materials also in very simple language with You - Tube video which help you to understand 
+            the materials very easily. I hope my website will provide you all the that ypu need in very simple way.
+            </p>
+    </section>
+ <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
